@@ -19,10 +19,13 @@ class BangunDatar {
 }
 
 class Lingkaran extends BangunDatar {
-    constructor (name) {
+    constructor (name, jari2) {
         super (name);
     }
-    jump() {
-        return "hop hop"
+}
+
+class Persegi extends BangunDatar {
+    constructor (name, panjang, lebar) {
+        super (name);
     }
 }
